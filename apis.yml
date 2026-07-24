@@ -1,8 +1,27 @@
 aid: circlehealth
-name: circlehealth
-description: circlehealth is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circlehealth.png
+name: Circle Health Group
+description: >-
+  Circle Health Group is the largest independent operator of private hospitals
+  in the United Kingdom, running a nationwide network of hospitals and clinics
+  that provide diagnostics, surgery, physiotherapy, and consultant-led private
+  medical care to self-pay patients, insured patients, and the NHS. Originally
+  backed by Balderton Capital as Circle Holdings, the group offers services
+  spanning orthopaedics, cardiology, gynaecology, general surgery, and imaging.
+  It was added to the API Evangelist network as a portfolio-company lead; the
+  organization operates a consumer-facing patient website and does not currently
+  publish a public developer API, SDK, or developer portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/circlehealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Private Hospitals
+- Medical
+- Health Services
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/circlehealth-domain-security.yml
 - type: Website
-  url: https://www.circlehealth.co.uk/
+  url: https://www.circlehealthgroup.co.uk/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
